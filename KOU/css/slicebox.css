@@ -1,0 +1,147 @@
+/* Slicebox Style */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Volkhov:400italic,700);
+.sb-slider {
+	margin: 10px auto;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+}
+
+.sb-slider li {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.sb-slider li > a {
+	outline: none;
+}
+
+.sb-slider li > a img {
+	border: none;
+}
+
+.sb-slider img {
+	max-width: 100%;
+	display: block;
+}
+
+.sb-description {
+	padding: 20px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	z-index: 1000;
+	position: absolute;
+	background: #CBBFAE;
+	background: rgba(190,176,155, 0.4);
+	border-left: 4px solid rgba(255,255,255,0.7);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);	
+	opacity: 0;
+	color: #fff;
+
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+	transition: all 200ms;
+}
+
+.sb-slider li.sb-current .sb-description {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);	
+	opacity: 1;
+}
+
+.sb-slider li.sb-current .sb-description:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+	filter: alpha(opacity=99);	
+	background: rgba(190,176,155, 0.7);
+}
+
+.sb-perspective {
+	position: relative;
+}
+
+.sb-perspective > div {
+	position: absolute;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	-webkit-backface-visibility : hidden;
+	-moz-backface-visibility : hidden;
+	-o-backface-visibility : hidden;
+	-ms-backface-visibility : hidden;
+	backface-visibility : hidden;
+}
+
+.sb-side {
+	margin: 0;
+	display: block;
+	position: absolute;
+
+	-moz-backface-visibility : hidden;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* General Demo Style */
+body {
+	background: #e4ebe9 url(../images/fancy_deboss.png) repeat top left;
+	color: #444;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+
+
+
+.wrapper {
+	position: relative;
+	max-width: 840px;
+	width: 100%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+

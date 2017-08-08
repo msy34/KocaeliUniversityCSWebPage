@@ -1,0 +1,10 @@
+1- Proje hazýrlanýrken wampserver/phpmyadmin kullanýlmýþtýr kurulum bunun üzerinden anlatýlacaktýr.
+2- RAR dosyasýndaki KOU adlý klasör wampserver açýlarak www klasörü içerisine sürüklenir.
+3- Dosyalar aktarýldýktan sonra phpmyadmin açýlýp koubilgisayar adýnda bir veri tabaný oluþturulur.
+4- Oluþturulan veritabanýna Ýçeaktar a gelinerek RAR dosyasýnýn içerisinde bulunan VERÝ TABANI DOSYASI klasörünün altýndaki koubligisayar.sql seçilip içe aktarýlýr.
+5- Daha sonra localhosta girilerek web sayfasý çalýþtýrýlýr.
+
+
+Mehmet Samet YILDIZ 150202104
+Cihan SAVAÞ 130202098
+Cihat DUYKU 150202106
